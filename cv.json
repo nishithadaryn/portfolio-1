@@ -5,7 +5,7 @@
     "label": "Software Developer",
     "animated_main_label": "developer",
     "animated_secondary_initial_label": "software",
-    "animated_secondary_final_label": "front_end",
+    "animated_secondary_final_label": "full_stack",
     "image": "/pfp.webp",
     "email": "falconyumn@gmail.com",
     "url": "https://www.linkedin.com/in/arielfalcon/",
@@ -89,7 +89,7 @@
       "url": "https://www.linkedin.com/company/aitor-pelaez-zenerconsulting-com/",
       "startDate": "2023-07-03",
       "endDate": null,
-      "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services Hexagonal DDD Spring Java project.",
+      "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services, Hexagonal, DDD, Spring Java project.",
       "highlights": [
         "Developed a data-intensive Angular project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."
       ],
@@ -98,7 +98,8 @@
         "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
         "Ensured code quality and optimized front-end performance to meet user needs and business objectives.",
         "Managed complex, data-intensive projects, ensuring smooth integration of business logic and user interfaces.",
-        "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction."
+        "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction.",
+        "Developed endpoints and services for business logic and data management, ensuring seamless integration with front-end applications."
       ],
       "achievements": [
         "Optimized front-end performance by resolving critical issues, improving page load times, and enhancing user experience.",
@@ -275,7 +276,7 @@
     {
       "name": "Java",
       "icon": "ri:java-line",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Web Development",
         "Backend"
@@ -284,7 +285,7 @@
     {
       "name": "Spring",
       "icon": "simple-icons:spring",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Web Development",
         "Backend",
@@ -305,7 +306,7 @@
     {
       "name": "MySQL",
       "icon": "simple-icons:mysql",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Backend",
         "Databases",
@@ -316,7 +317,7 @@
     {
       "name": "PostgreSQL",
       "icon": "simple-icons:postgresql",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Backend",
         "Databases",
@@ -358,7 +359,7 @@
     {
       "name": "Docker",
       "icon": "mdi:docker",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Virtual Environments",
         "Backend"
