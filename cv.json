@@ -9,7 +9,7 @@
     "image": "/pfp.webp",
     "email": "falconyumn@gmail.com",
     "url": "https://www.linkedin.com/in/arielfalcon/",
-    "summary": "Front-end developer, at the moment. I work on Angular and Vue with Typescript / HTML5 / SCSS. Currently learning about Back-end Development, Cloud Computing and DevOps.",
+    "summary": "Full-Stack web developer, at the moment. I work on Angular and Vue with Typescript / HTML5 / SCSS and Spring Java. Currently learning about AWS, Cloud Computing and DevOps.",
     "theme": "red",
     "location": {
       "address": "Alcalá de Henares",
@@ -83,18 +83,18 @@
   "work": [
     {
       "name": "Zener Soft Consulting",
-      "position": "Front-end Developer",
+      "position": "Full-Stack Developer",
       "location_type": "Remote",
       "location": "ES",
       "url": "https://www.linkedin.com/company/aitor-pelaez-zenerconsulting-com/",
       "startDate": "2023-07-03",
       "endDate": null,
-      "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services, Hexagonal, DDD, Spring Java project.",
+      "summary": "Experienced in developing high-complexity, scalable, data-driven projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services, Hexagonal, DDD, Spring Java project.",
       "highlights": [
         "Developed a data-intensive Angular project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."
       ],
       "responsibilities": [
-        "Developed and maintained front-end projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
+        "Developed and maintained projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
         "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
         "Ensured code quality and optimized front-end performance to meet user needs and business objectives.",
         "Managed complex, data-intensive projects, ensuring smooth integration of business logic and user interfaces.",
