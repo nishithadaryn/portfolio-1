@@ -50,8 +50,16 @@
   },
   "education": [
     {
+      "institution": "Experis Academy – Spain",
+      "url": "https://www.linkedin.com/school/experis-academy",
+      "area": "Cloud Computing (AWS)",
+      "studyType": "Full-time student",
+      "startDate": "2025-01-01",
+      "endDate": "2025-05-21"
+    },
+    {
       "institution": "TEIDE Formation Center – Spain",
-      "url": "https://www.linkedin.com/company/teide-centros-de-formaci%C3%B3n/",
+      "url": "https://www.linkedin.com/company/teide-centros-de-formaci%C3%B3n",
       "area": "Web Development",
       "studyType": "Full-time student",
       "startDate": "2023-04-01",
