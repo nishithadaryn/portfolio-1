@@ -9,7 +9,7 @@
     "image": "/pfp.webp",
     "email": "falconyumn@gmail.com",
     "url": "https://www.linkedin.com/in/arielfalcon/",
-    "summary": "Full-Stack web developer, at the moment. I work on Angular and Vue with Typescript / HTML5 / SCSS and Spring Java. Currently learning about AWS, Cloud Computing and DevOps.",
+    "summary": "Full-Stack web developer, at the moment. I work on Angular and Vue with Java / Spring. Currently learning about AWS, Cloud Computing and DevOps.",
     "theme": "red",
     "location": {
       "address": "Alcalá de Henares",
@@ -104,8 +104,8 @@
       "achievements": [
         "Optimized front-end performance by resolving critical issues, improving page load times, and enhancing user experience.",
         "Developed an internal tool to streamline client-owned code documentation, introducing interactive design guidelines and testable components.",
-        "Created a highly complex Angular application for the national healthcare system, successfully handling large-scale data and implementing intricate business logic.",
-        "Built reusable and scalable Vue components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
+        "Created a highly complex application for the national healthcare system, successfully handling large-scale data management and implementing intricate business logic.",
+        "Built reusable and scalable components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
       ],
       "skills": {
         "HTML5": "simple-icons:html5",
