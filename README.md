@@ -1,7 +1,7 @@
 > [!NOTE]
 > If you use, refactor or improve it in some way for your personal ussage, i'll be glad if you let me know to see it. THX!
 
-## Print-friendly portfolio CV 
+## Print-friendly portfolio CV
 
 > [!TIP]
 > 〔🌐〕[Take a look](https://www.arielfalcon.me)
