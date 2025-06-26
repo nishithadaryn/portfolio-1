@@ -3,14 +3,14 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import '../globals.css';
 import CV from "@cv";
 import Analytics from '@vercel/analytics/astro';
+import { Icon } from 'astro-icon/components';
 
 interface Props {
   title: string;
 }
 
 const { title } = Astro.props;
-
-const { image, summary, url, theme } = CV.basics;
+const { image, summary, url } = CV.basics;
 ---
 
 <!doctype html>
@@ -20,7 +20,7 @@ const { image, summary, url, theme } = CV.basics;
     <title>{title}</title>
     <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preload" as="image" href={image} />
     <meta property="og:url" content={url} />
     <meta property="og:type" content="website" />
@@ -37,79 +37,115 @@ const { image, summary, url, theme } = CV.basics;
     {CV?.analyticsCode && <script is:inline src={CV.analyticsCode} />}
     <Analytics />
   </head>
-  <body data-theme={theme} class="relative bg-skin-fill font-sans">
+
+  <body class="relative bg-skin-fill font-sans dark" data-theme="red">
+    <!-- 🌙 Toggle button top-right -->
+    <div class="fixed top-4 right-4 z-50 print:hidden">
+      <button id="themeSwitch" aria-label="Toggle dark mode">
+        <Icon
+          name="ri:moon-fill"
+          width={28}
+          height={28}
+          class="cursor-pointer hover:text-skin-hue"
+        />
+      </button>
+    </div>
+
+    <!-- Background blur -->
     <div class="absolute top-0 -z-10 h-full w-full print:hidden">
       <div class="absolute bottom-auto left-[20%] right-auto top-0 h-[200px] w-[200px] -translate-x-[30%] translate-y-[20%] rounded-full bg-skin-hue/10 blur-[80px] invert-0 dark:bg-white/5"></div>
     </div>
+
     <slot />
     <script src="../scripts/main.ts"></script>
+
+    <script>
+      let isDark = true;
+
+      function updateTheme() {
+        document.documentElement.classList.toggle('dark', isDark);
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      }
+
+      document.getElementById('themeSwitch')?.addEventListener('click', () => {
+        isDark = !isDark;
+        updateTheme();
+      });
+
+      // Load from localStorage if available
+      if (localStorage.getItem('theme') === 'light') {
+        isDark = false;
+        updateTheme();
+      }
+    </script>
   </body>
 </html>
 
 <style>
+  :global(.dark) {
+    color-scheme: dark;
+  }
 
-  body{
+  body {
     * {
-    @apply rounded-lg;
-    cursor: none !important;
-    -webkit-user-drag: none;
+      @apply rounded-lg;
+      cursor: none !important;
+      -webkit-user-drag: none;
     }
   }
-  
+
   a {
     text-decoration: none;
   }
-  
+
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  
+
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
-  
-  h1,
-  h2,
-  h3,
-  h4 {
+
+  h1, h2, h3, h4 {
     @apply text-skin-base font-sans;
     margin: 0;
   }
-  
+
   p {
     @apply text-sm text-skin-muted;
     line-height: 1.5;
     text-wrap: pretty;
   }
-  
+
   .print {
     display: none !important;
   }
-  
+
   .dev * {
     @apply border border-red-500/50 bg-red-500/5;
   }
+
   #hotkeypad [data-backdrop] {
     @apply !bg-zinc-800 !opacity-80;
   }
-  
+
   ::-webkit-scrollbar {
     width: 2px;
   }
-  
+
   @media print {
     .print {
       display: block !important;
     }
-    
+
     astro-dev-toolbar {
       display: none !important;
     }
-    
+
     article {
       break-inside: avoid;
     }

@@ -1,11 +1,12 @@
 ---
 import Section from "../Section.astro";
 import CV from "@cv";
+
 const { summary } = CV.basics;
+const { achievements } = CV;
 
 const words = summary.split(' ');
 ---
-
 <Section className={Astro.props.className} title="About">
   <p class="font-mono opacity-75 print:font-sans text-skin-hue font-semibold print:text-skin-base print:font-normal w-full select-none">
     {words.map((word) => (
@@ -13,3 +14,17 @@ const words = summary.split(' ');
     ))}
   </p>
 </Section>
+
+{achievements && achievements.length > 0 && (
+  <Section title="Achievements">
+    <ul class="list-disc list-inside text-skin-muted font-sans text-sm sm:text-base space-y-1">
+      {achievements.map((a) => (
+        <li>
+          <span class="font-semibold">{a.name}</span>
+          {a.issuer && <span class="text-xs text-skin-base block">Issued by: {a.issuer}</span>}
+          {a.date && <span class="text-xs text-skin-base block">Date: {new Date(a.date).toLocaleDateString()}</span>}
+        </li>
+      ))}
+    </ul>
+  </Section>
+)}
