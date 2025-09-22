@@ -51,13 +51,13 @@
       "endDate": "2027-06-30"
     },
     {
-  "institution": "Indian Institute of Technology Madras",
-  "url": "https://study.iitm.ac.in/ds/",
-  "area": "BSc Data Science",
-  "studyType": "Bachelor of Science",
-  "startDate": "2024-08-01",
-  "endDate": "2027-06-30"
-}
+      "institution": "Indian Institute of Technology Madras",
+      "url": "https://study.iitm.ac.in/ds/",
+      "area": "BSc Data Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2024-08-01",
+      "endDate": "2027-06-30"
+    }
   ],
   "certificates": [],
   "achievements": [
@@ -76,7 +76,6 @@
       "issuer": "International Baccalaureate and Conselho Nacional de Educacao",
       "date": "2019-11-01"
     }
-  
   ],
   "work": [
     {
@@ -113,7 +112,6 @@
     { "name": "Next.js", "icon": "simple-icons:nextdotjs", "level": 4 },
     { "name": "TypeScript", "icon": "simple-icons:typescript", "level": 4 },
     { "name": "CSS", "icon": "ri:css3-fill", "level": 4 }
-
   ],
   "languages": [
     { "language": "English", "fluency": "Fluent" },
@@ -121,38 +119,37 @@
     { "language": "French", "fluency": "Semi-Fluent" }
   ],
   "projects": [
-     {
-  "name": "Patient Tracker Database",
-  "isActive": true,
-  "description": "A patient database that keeps track of patient details including name, age, gender, blood group, contact info, medical condition, allergies, assigned doctor, and room number. Built using React and FastAPI, deployed on Vercel.",
-  "highlights": [
-    "📋 Complete patient information management",
-    "🩺 Doctor and room assignment tracking",
-    "💻 Built with React + FastAPI"
-  ],
-  "stack": {
-    "React": "ri:reactjs-fill",
-    "FastAPI": "simple-icons:fastapi"
-  },
-  "url": "https://patient-tracker-lake.vercel.app/"
-},
-{
-  "name": "Patient Monitoring Dashboard",
-  "isActive": true,
-  "description": "A real-time patient monitoring dashboard showing ECG, blood pressure, vitals, trends, alerts on threshold breaches, upcoming appointments, and patient details. Built with Next.js, TypeScript, and CSS; backend can be connected to sensors with MongoDB for data storage.",
-  "highlights": [
-    "📈 Real-time vitals monitoring",
-    "⚠️ Alerts on threshold breaches",
-    "🗂️ Patient details and appointment tracking"
-  ],
-  "stack": {
-    "Next.js": "simple-icons:nextdotjs",
-    "TypeScript": "simple-icons:typescript",
-    "CSS": "ri:css3-fill"
-  },
-  "url": "https://shadcn-zeta-lac.vercel.app/"
-},
-
+    {
+      "name": "Patient Tracker Database",
+      "isActive": true,
+      "description": "A patient database that keeps track of patient details including name, age, gender, blood group, contact info, medical condition, allergies, assigned doctor, and room number.",
+      "highlights": [
+        "📋 Patient information management",
+        "🩺 Doctor and room assignment tracking",
+        "💻 Simple implementation for clinics"
+      ],
+      "stack": {
+        "React": "ri:reactjs-fill",
+        "FastAPI": "simple-icons:fastapi"
+      },
+      "url": "https://patient-tracker-lake.vercel.app/"
+    },
+    {
+      "name": "Patient Monitoring Dashboard",
+      "isActive": true,
+      "description": "A real-time patient monitoring dashboard showing ECG, blood pressure, vitals, trends, alerts on threshold breaches, upcoming appointments, and patient details. The backend can be connected to sensors with MongoDB for data storage.",
+      "highlights": [
+        "📈 Real-time vitals monitoring",
+        "⚠️ Alerts on threshold breaches",
+        "🗂️ Patient details and appointment tracking"
+      ],
+      "stack": {
+        "Next.js": "simple-icons:nextdotjs",
+        "TypeScript": "simple-icons:typescript",
+        "CSS": "ri:css3-fill"
+      },
+      "url": "https://shadcn-zeta-lac.vercel.app/"
+    },
     {
       "name": "Organ Museum VR",
       "isActive": true,
@@ -168,7 +165,7 @@
       },
       "github": "https://github.com/nishithadaryn/Organ-Museum"
     },
-        {
+    {
       "name": "Heat Sensor using LM358",
       "isActive": true,
       "description": "A mini project built using LM358 op-amp, this sensor detects when temperature exceeds a set limit and triggers an output.\nMedical Use: Can be a safety feature in neonatal incubators to alert when temperatures go beyond safe levels.",
