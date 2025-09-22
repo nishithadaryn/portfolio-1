@@ -49,7 +49,15 @@
       "studyType": "Bachelor of Technology",
       "startDate": "2023-08-01",
       "endDate": "2027-06-30"
-    }
+    },
+    {
+  "institution": "Indian Institute of Technology Madras",
+  "url": "https://study.iitm.ac.in/ds/",
+  "area": "BSc Data Science",
+  "studyType": "Bachelor of Science",
+  "startDate": "2024-08-01",
+  "endDate": "2027-06-30"
+}
   ],
   "certificates": [],
   "achievements": [
@@ -71,16 +79,6 @@
   
   ],
   "work": [
-    {
-      "name": "ZNotes",
-      "position": "Newsletter Editor",
-      "location_type": "Remote",
-      "location": "IN",
-      "url": "https://znotes.org/",
-      "startDate": "2025-05-01",
-      "endDate": null,
-      "summary": "Currently contributing to the ZNotes newsletter team, overseeing collaboration with content writers to shape pieces for students worldwide—exploring academic themes and highlighting educational tools and opportunities."
-    },
     {
       "name": "The Tech Society",
       "position": "Executive Director & Writer",
@@ -109,7 +107,13 @@
     { "name": "GitHub", "icon": "mdi:github", "level": 3 },
     { "name": "HTML", "icon": "simple-icons:html5", "level": 3 },
     { "name": "CSS", "icon": "ri:css3-fill", "level": 3 },
-    { "name": "Unity", "icon": "simple-icons:unity", "level": 3 }
+    { "name": "Unity", "icon": "simple-icons:unity", "level": 3 },
+    { "name": "React", "icon": "ri:reactjs-fill", "level": 4 },
+    { "name": "FastAPI", "icon": "simple-icons:fastapi", "level": 4 },
+    { "name": "Next.js", "icon": "simple-icons:nextdotjs", "level": 4 },
+    { "name": "TypeScript", "icon": "simple-icons:typescript", "level": 4 },
+    { "name": "CSS", "icon": "ri:css3-fill", "level": 4 }
+
   ],
   "languages": [
     { "language": "English", "fluency": "Fluent" },
@@ -117,21 +121,38 @@
     { "language": "French", "fluency": "Semi-Fluent" }
   ],
   "projects": [
-    {
-      "name": "Tech Society RIT Website",
-      "isActive": true,
-      "description": "The official website of a DECA club at RIT—a digital oasis for students to explore zines on technology, student life, and stay updated on events designed to build skills aligned with their engineering careers.",
-      "highlights": [
-        "📰 Student-written zines",
-        "📚 Resource library",
-        "🎓 Event highlights"
-      ],
-      "stack": {
-        "HTML": "simple-icons:html5",
-        "CSS": "ri:css3-fill"
-      },
-      "url": "https://techsocietyrit.netlify.app/"
-    },
+     {
+  "name": "Patient Tracker Database",
+  "isActive": true,
+  "description": "A patient database that keeps track of patient details including name, age, gender, blood group, contact info, medical condition, allergies, assigned doctor, and room number. Built using React and FastAPI, deployed on Vercel.",
+  "highlights": [
+    "📋 Complete patient information management",
+    "🩺 Doctor and room assignment tracking",
+    "💻 Built with React + FastAPI"
+  ],
+  "stack": {
+    "React": "ri:reactjs-fill",
+    "FastAPI": "simple-icons:fastapi"
+  },
+  "url": "https://patient-tracker-lake.vercel.app/"
+},
+{
+  "name": "Patient Monitoring Dashboard",
+  "isActive": true,
+  "description": "A real-time patient monitoring dashboard showing ECG, blood pressure, vitals, trends, alerts on threshold breaches, upcoming appointments, and patient details. Built with Next.js, TypeScript, and CSS; backend can be connected to sensors with MongoDB for data storage.",
+  "highlights": [
+    "📈 Real-time vitals monitoring",
+    "⚠️ Alerts on threshold breaches",
+    "🗂️ Patient details and appointment tracking"
+  ],
+  "stack": {
+    "Next.js": "simple-icons:nextdotjs",
+    "TypeScript": "simple-icons:typescript",
+    "CSS": "ri:css3-fill"
+  },
+  "url": "https://shadcn-zeta-lac.vercel.app/"
+},
+
     {
       "name": "Organ Museum VR",
       "isActive": true,
@@ -147,22 +168,7 @@
       },
       "github": "https://github.com/nishithadaryn/Organ-Museum"
     },
-    {
-      "name": "ESP32 Robot",
-      "isActive": true,
-      "description": "A basic ESP32-powered robot that moves forward, backward, and turns.Controlled by a PS4 controller. Built as an introduction to embedded systems.",
-      "highlights": [
-        "🤖 Basic motion control",
-        "⚙️ Embedded development",
-        "🔌 ESP32 microcontroller"
-      ],
-      "stack": {
-        "ESP32": "simple-icons:espressif",
-        "Arduino": "simple-icons:arduino"
-      },
-      "github": "https://github.com/nishithadaryn/esp32-robot"
-    },
-    {
+        {
       "name": "Heat Sensor using LM358",
       "isActive": true,
       "description": "A mini project built using LM358 op-amp, this sensor detects when temperature exceeds a set limit and triggers an output.\nMedical Use: Can be a safety feature in neonatal incubators to alert when temperatures go beyond safe levels.",
